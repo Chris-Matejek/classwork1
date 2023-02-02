@@ -1,0 +1,22 @@
+package Classwork1.java;
+import java.util.Scanner;
+
+public class Classwork1 {
+    public static void main(String[] args) {
+        
+        int myNumber;
+        Scanner scanner = new Scanner(System.in);
+        
+        myNumber = scanner.nextInt();
+        
+        System.out.println("first digit: " + myNumber/10000);
+        
+        System.out.println("floating point result: " + myNumber/10000.0);
+        
+        System.out.println("second digit: " + myNumber/1000%10);
+        
+    }
+
+        
+    
+}
